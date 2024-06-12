@@ -1,10 +1,25 @@
 ---
+import Optical from "./icons/Optical.astro";
+import Radio from "./icons/Radio.astro";
+import Tv from "./icons/Tv.astro";
+import Tvinternet from "./icons/Tv.astro";
 ---
-<div class="mt-20 flex">
-    <div><img src="" alt="Fibra optica"></div>
-    <div><img src="" alt="Internet Radio Frecuencia"></div>
-    <div><img src="" alt="PlayTv ZoeNet"></div>
-    <div><img src="" alt="Internet + PlayTv ZoeNet"></div>
-    <div><img src="" alt="Conoce Nuestra Cobertura"></div>
-    <div><img src="" alt="Pagos"></div>
+
+<div class="mt-20 grid grid-cols-3 gap-4 justify-items-center">
+  <div class="w-full text-center">
+    <Optical id="optical" class="" />
+    Alta Velocidad Fibra Optica
+  </div>
+  <div class="w-full">
+    <Radio id="optical" class="" />
+    Internet Radio Frecuencia
+  </div>
+  <div>
+    <Tv id="optical" class="" />
+    PlayTv Zoenet
+  </div>
+<div>
+    <Tvinternet id="optical" class="" />
+    PlayTv Zoenet
+  </div>
 </div>
